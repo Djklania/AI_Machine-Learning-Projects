@@ -119,7 +119,7 @@ history_1 = model_1.fit(train_ds,
             steps_per_epoch = len(train_ds),
             validation_data = val_ds,
             validation_steps = len(val_ds),
-            epochs = 20,
+            epochs = 5,
             callbacks = [callback])
 
 """# 3.2 Αξιολόγηση"""
@@ -219,7 +219,7 @@ callback = tf.keras.callbacks.EarlyStopping(monitor ="loss",patience = 3)
 # Fit the model
 history_2 = model_2.fit(train_ds,
                         steps_per_epoch = len(train_ds),
-                        epochs = 20,
+                        epochs = 5,
                         batch_size = BATCH_SIZE,
                         validation_data = val_ds,
                         validation_steps = len(val_ds),
