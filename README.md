@@ -8,3 +8,6 @@ This file is dedicated to the California Housing Dataset, a valuable resource fo
 
 ## Image Classification with different models
 This file is dedicated to image classification, employing a range of model architectures such as Inception_v1, Inception_v2, Inception_v3, and Inception_ResNet_v2. Furthermore, we incorporate diverse baseline images for a comprehensive analysis.
+
+## Custom Layer Creation
+This file is dedicated to the creation of custom layers in TensorFlow, with a specific focus on implementing custom layers for word embeddings thus providing an in-depth exploration of extending the capabilities of this deep learning framework.
