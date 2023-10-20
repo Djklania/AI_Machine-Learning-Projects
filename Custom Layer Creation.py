@@ -99,7 +99,7 @@ concatenate = tf.keras.layers.Concatenate([dense,dense_1])
 
 dropout = tf.keras.layers.Dropout(rate = 0.2,)(concatenate)
 
-dense_2 = tf.keras.layers.Dense(n_labels)
+dense_2 = tf.keras.layers.Dense(n_labels)(dropout)
 
 
 model = tf.keras.Model(inputs = [input, input_2],outputs = dense_2)
